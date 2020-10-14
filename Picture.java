@@ -63,9 +63,7 @@ public class Picture
         sun.makeVisible();
         sun.slowMoveVertical(20);
         sun.slowMoveVertical(-120);
-        sun.slowMoveVertical(100);
-        sun.slowMoveVertical(-100);
-        sun.slowMoveVertical(100);
+       
         
         
         
@@ -98,4 +96,16 @@ public class Picture
             sun.changeColor("yellow");
         }
     }
+    
+    public void atardecer()
+    {
+        sun.slowMoveVertical(120);
+    
+    
+    
+    }
+    
+
+
 }
+
